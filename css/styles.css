@@ -19,7 +19,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* font-style: normal; - непотрібно (дефолтне значення)*/
   color: var(--main-fonts);
   background-color: var(--white-color);
 }
@@ -34,7 +33,6 @@ body {
 }
 
 .main-text {
-  /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -61,6 +59,20 @@ body {
 address {
   font-style: normal;
   text-decoration: none;
+}
+
+p,
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 /* ========== HEADER ========== */
