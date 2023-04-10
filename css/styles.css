@@ -186,15 +186,16 @@ ul {
 /* ==========BUTTON STYLE========== */
 /* button in index.html */
 .btn {
-  font-family: 'Roboto', sans-serif;
   background-color: var(--btn-color);
-  min-width: 169px;
-  height: 56px;
-  padding-right: 10px;
-  padding-left: 10px;
+  /* min-width: 169px;
+  height: 56px; */
+  /* padding-right: 10px;
+  padding-left: 10px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  letter-spacing: 0.04em;
+  display: flex;
+  padding: 16px 32px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -204,6 +205,7 @@ ul {
 }
 
 .btn-text {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -213,6 +215,10 @@ ul {
 
 /* ========== SECTIONs ========== */
 /* Section 1 (h3 = header під "body") */
+.section-delta {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /* Section 2,3 (h2) */
 .header-two {
