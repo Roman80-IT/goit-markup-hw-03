@@ -23,6 +23,17 @@ body {
   background-color: var(--white-color);
 }
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+img {
+  display: block;
+}
+
 /* для заголовків перезадаємо параметри */
 .header {
   font-weight: 500;
@@ -56,7 +67,6 @@ body {
 }
 
 /* для прибирання курсиву */
-
 .address-link {
   font-style: normal;
 }
@@ -76,6 +86,28 @@ ul {
 }
 
 /* ========== HEADER ========== */
+.header-box {
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #E7E9FC;
+  border-bottom-width: 1px;
+  gap: 40px;
+  padding: 0 15px 0 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-grow: 1;
+    margin-right: auto;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
