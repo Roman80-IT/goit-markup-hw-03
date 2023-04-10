@@ -168,6 +168,8 @@ ul {
 /* Hero section style*/
 .hero-bloc {
   background-color: var(--hero-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .title {
@@ -177,6 +179,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
+  margin: 0 auto 48px auto;
+  max-width: 496px;
 }
 
 /* ==========BUTTON STYLE========== */
