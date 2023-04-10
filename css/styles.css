@@ -41,6 +41,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--heading-color);
+  margin-bottom: 8px;
 }
 
 .main-text {
@@ -235,9 +236,9 @@ section {
   gap: 24px;
 }
 
-.feature-title {
+/* .feature-title {
   margin-bottom: 8px;
-}
+} */
 
 
 /* Section 2,3 (h2) */
@@ -279,6 +280,11 @@ section {
 
 .team-items {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border: #E7E9FC;
+  border-width:  1px;
+  border-style: solid;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* ========== FOOTER ========== */
