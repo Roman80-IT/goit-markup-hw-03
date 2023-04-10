@@ -68,7 +68,8 @@ img {
 
 /* для прибирання курсиву */
 address {
-  font-style: normal;
+  /* font-style: normal; */
+  font-style: inherit;
 }
 
 p,
@@ -152,6 +153,7 @@ ul {
   list-style: none;
   display: flex;
   gap: 40px;
+  /* margin-left: auto; */
 }
 
 .contact-link {
