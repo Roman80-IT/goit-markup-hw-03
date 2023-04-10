@@ -56,9 +56,9 @@ body {
 }
 
 /* для прибирання курсиву */
-address {
+
+.address-link {
   font-style: normal;
-  text-decoration: none;
 }
 
 p,
@@ -100,8 +100,8 @@ ul {
 
 .menu-link:hover,
 .menu-link:focus,
-.contact-hover:hover,
-.contact-hover:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-btn);
 }
 
