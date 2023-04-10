@@ -105,7 +105,7 @@ ul {
   color: var(--hover-btn);
 }
 
-.contact {
+.contact-link {
     /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
