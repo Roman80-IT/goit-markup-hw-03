@@ -290,12 +290,15 @@ section {
 
 .team-member {
   padding: 32px 16px;
+  text-align: center;
   /* border-radius: 0px 0px 4px 4px; */
 }
 
 /* ========== FOOTER ========== */
 .footer-section {
   background: var(--heading-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
