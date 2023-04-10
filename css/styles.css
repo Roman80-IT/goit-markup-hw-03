@@ -183,8 +183,13 @@ ul {
   max-width: 496px;
 }
 
+section {
+  padding-bottom: 120px;
+}
+
 /* ==========BUTTON STYLE========== */
 /* button in index.html */
+
 .btn {
   background-color: var(--btn-color);
   /* min-width: 169px;
@@ -215,9 +220,9 @@ ul {
 
 /* ========== SECTIONs ========== */
 /* Section 1 (h3 = header під "body") */
+
 .section-delta {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .feature-list {
