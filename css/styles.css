@@ -220,6 +220,21 @@ ul {
   padding-bottom: 120px;
 }
 
+.feature-list {
+  display: flex;
+  gap: 24px;
+}
+
+.scroll-box {
+  flex-basis: calc((100%-72px)/4);
+  gap: 24px;
+}
+
+.feature-title {
+  margin-bottom: 8px;
+}
+
+
 /* Section 2,3 (h2) */
 .header-two {
   font-weight: 700;
@@ -229,6 +244,10 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: var(--heading-color);
+}
+
+.work-title {
+  margin-bottom: 72px;
 }
 
 /* Section 3 */
