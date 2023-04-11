@@ -239,7 +239,7 @@ section {
 
 .scroll-box {
   flex-basis: calc((100%-72px)/4);
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 /* Section 2,3 (h2) */
@@ -274,7 +274,7 @@ section {
 .team-list {
   list-style-type: none;
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
   flex-wrap: wrap;
   padding-left: 0px;
   }
@@ -283,8 +283,10 @@ section {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border: #E7E9FC;
-  border-width:  1px;
-  border-style: solid;
+  /* border-width:  1px;
+  border-style: solid; */
+  /* Тінь навколо ракмок: */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -361,4 +363,3 @@ section {
   cursor: pointer;
   border: 1px solid var(--hover-btn);
 }
-
