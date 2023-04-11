@@ -55,6 +55,7 @@ img {
 }
 
 /* ========== RESET ==========  */
+
 /* Видалення підкреслення link-ів */
 .link {
   text-decoration: none;
@@ -169,7 +170,8 @@ ul {
 }
 
 /* ========== MAIN ========== */
-/* Hero section style*/
+/* Hero section */
+
 .hero-bloc {
   background-color: var(--hero-color);
   padding-top: 188px;
@@ -192,7 +194,6 @@ section {
 }
 
 /* ==========BUTTON STYLE========== */
-/* button in index.html */
 
 .btn {
   background-color: var(--btn-color);
@@ -311,20 +312,6 @@ section {
   text-decoration: none;
   margin-bottom: 16px;
   }
-
-  .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-color);
-    display: flex;
-    /* align-items: center; */
-    margin-right: 76px;
-  }
-
 
 .studio-footer {
   color: var(--light-font);
