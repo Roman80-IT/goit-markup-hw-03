@@ -66,10 +66,12 @@ img {
   list-style: none;
 }
 
-/* Прихований заголовок */
+/* Прихований заголовок 
 .hide-titel {
   display: none;
 }
+Альтернативний варіант - атрибут hidden */
+
 
 /* для прибирання курсиву */
 address {
@@ -242,7 +244,7 @@ section {
   /* gap: 24px; */
 }
 
-/* Section 2,3 (h2) */
+/* Section 2,(3) (h2) */
 .header-two {
   font-weight: 700;
   font-size: 36px;
@@ -274,7 +276,7 @@ section {
 .team-list {
   list-style-type: none;
   display: flex;
-  /* gap: 24px; */
+  gap: 24px;
   flex-wrap: wrap;
   padding-left: 0px;
   }
@@ -336,6 +338,15 @@ section {
   /*  контур елемента */
   outline: 2px solid red;
   outline-offset: -2px;
+}
+
+.list-portfolio {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 /* ==========BUTTON STYLE========== */
