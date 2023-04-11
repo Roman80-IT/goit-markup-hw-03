@@ -165,7 +165,6 @@ ul {
 }
 
 .contact-link {
-    /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -331,7 +330,7 @@ section {
 /* ========== PAGE2 - PORTFOLIO ========== */
 
 .container-portfolio {
-  padding: 96px 15px 120px 15px;
+  padding: 96px 0 120px;
   /*  контур елемента */
   outline: 2px solid red;
   outline-offset: -2px;
