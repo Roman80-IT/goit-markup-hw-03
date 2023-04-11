@@ -28,6 +28,9 @@ body {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0px 15px;
+/*  контур елемента */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 img {
@@ -302,7 +305,7 @@ section {
 }
 
 .logo-footer {
-  /* display: flex; */
+  display: flex;
   display: inline-block;
   /* align-items: center; */
   text-decoration: none;
