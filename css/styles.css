@@ -98,8 +98,11 @@ ul {
   border-bottom-color: var(--portfolio-bgc);
   border-bottom-width: 1px;
   /* gap: 40px; */
-  padding: 0 15px 0 15px;
-}
+  /* padding: 0 15px 0 15px; */
+    /*  контур елемента */
+    outline: 2px solid red;
+    outline-offset: -2px;
+ }
 
 .header-container {
   display: flex;
@@ -326,6 +329,14 @@ section {
 }
 
 /* ========== PAGE2 - PORTFOLIO ========== */
+
+.container-portfolio {
+  padding: 96px 15px 120px 15px;
+  /*  контур елемента */
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
 /* ==========BUTTON STYLE========== */
 
 .filter-button {
