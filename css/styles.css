@@ -114,7 +114,6 @@ address {
 .header-nav{
     display: flex;
     align-items: center;
-    /* list-style: none; */
     /* flex-grow: 1; */
     /* margin-right: auto; */
 }
@@ -295,7 +294,6 @@ section {
 }
 
 .photo {
-  /* margin-bottom: 32px; */
   display: block;
   max-width: 100%;
 }
@@ -316,7 +314,6 @@ section {
 .logo-footer {
   /* display: flex; */
   display: inline-block;
-  /* align-items: center; */
   margin-bottom: 16px;
   }
 
@@ -360,7 +357,7 @@ section {
 }
 
 .portfolio-item {
-  /* max-width: 360px; */
+  max-width: 360px;
   width: calc((100% - 48px) / 3);
 }
 
