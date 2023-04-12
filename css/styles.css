@@ -45,9 +45,9 @@ body {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0px 15px;
-/*  контур елемента */
+/*  контур елемента 
   outline: 2px solid red;
-  outline-offset: -2px;
+  outline-offset: -2px; */
 }
 
 img {
@@ -100,16 +100,15 @@ address {
   border-bottom-style: solid;
   border-bottom-color: var(--portfolio-bgc);
   border-bottom-width: 1px;
-  /* gap: 40px; */
-  /* padding: 0 15px 0 15px; */
-    /*  контур елемента */
+    /*  контур елемента 
     outline: 2px solid red;
-    outline-offset: -2px;
+    outline-offset: -2px; */
  }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav{
@@ -117,7 +116,7 @@ address {
     align-items: center;
     /* list-style: none; */
     /* flex-grow: 1; */
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 .header-menu {
@@ -167,7 +166,6 @@ address {
   list-style: none;
   display: flex;
   gap: 40px;
-  /* margin-left: auto; */
 }
 
 .contact-link {
@@ -338,9 +336,9 @@ section {
 
 .container-portfolio {
   padding: 96px 0 120px;
-  /*  контур елемента */
+  /*  контур елемента 
   outline: 2px solid red;
-  outline-offset: -2px;
+  outline-offset: -2px; */
 }
 
 .list-menu-prtf {
