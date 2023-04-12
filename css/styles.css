@@ -279,7 +279,7 @@ section {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  padding-left: 0px;
+  /* padding-left: 0px; */
   }
 
 .team-items {
@@ -352,7 +352,7 @@ section {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  padding-left: 0px;
+  /* padding-left: 0px; */
   row-gap: 48px;
 }
 
