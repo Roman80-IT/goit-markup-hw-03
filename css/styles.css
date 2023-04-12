@@ -17,6 +17,23 @@
   --hover-btn: #404bbf;
 }
 
+/* ========== RESET indents ==========  */
+p,
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== BODY =========== */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-fonts);
@@ -55,7 +72,6 @@ img {
 }
 
 /* ========== RESET ==========  */
-
 /* Видалення підкреслення link-ів */
 .link {
   text-decoration: none;
@@ -72,25 +88,10 @@ img {
 }
 Альтернативний варіант - атрибут hidden */
 
-
 /* для прибирання курсиву */
 address {
   /* font-style: normal; */
   font-style: inherit;
-}
-
-p,
-h1, 
-h2, 
-h3, 
-h4, 
-h5 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
 }
 
 /* ========== HEADER ========== */
@@ -133,8 +134,11 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  display: flex;
+  text-decoration: none;
   /* align-items: center; */
+}
+
+.logo-header {
   margin-right: 76px;
 }
 
@@ -312,10 +316,9 @@ section {
 }
 
 .logo-footer {
-  display: flex;
+  /* display: flex; */
   display: inline-block;
   /* align-items: center; */
-  text-decoration: none;
   margin-bottom: 16px;
   }
 
