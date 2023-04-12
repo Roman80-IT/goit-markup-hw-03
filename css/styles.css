@@ -82,11 +82,11 @@ img {
   list-style: none;
 }
 
-/* Прихований заголовок 
+/* Прихований заголовок */
 .hide-titel {
   display: none;
 }
-Альтернативний варіант - атрибут hidden */
+/* Альтернативний варіант - атрибут hidden в html */
 
 /* для прибирання курсиву */
 address {
@@ -358,7 +358,6 @@ section {
   gap: 24px;
   flex-wrap: wrap;
   padding-left: 0px;
-  padding-bottom: 120px;
   row-gap: 48px;
 }
 
