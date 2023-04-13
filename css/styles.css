@@ -85,6 +85,8 @@ img {
 /* Прихований заголовок */
 /* .hide-titel {
   display: none;
+  або
+  .visibility: hidden;
 } */
 
 .visually-hidden {
