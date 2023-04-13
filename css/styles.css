@@ -92,6 +92,7 @@ img {
 address {
   /* font-style: normal; */
   font-style: inherit;
+  margin-left: auto;
 }
 
 /* ========== HEADER ========== */
@@ -108,7 +109,7 @@ address {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header-nav{
