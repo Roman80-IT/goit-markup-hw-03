@@ -1,2 +1,2 @@
 # goit-markup-hw-03
- Box Model & Flexbox
+ Block Model & Flexbox
